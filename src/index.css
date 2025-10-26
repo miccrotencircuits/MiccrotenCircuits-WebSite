@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Custom Scrollbar Styles for WebKit browsers (Chrome, Safari) */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #f1f5f9; /* slate-100 */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #60a5fa; /* blue-400 */
+    border-radius: 10px;
+    border: 2px solid #f1f5f9; /* slate-100, creates a padding effect */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #3b82f6; /* blue-500 */
+  }
+
+  /* Custom Scrollbar Styles for Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #60a5fa #f1f5f9; /* thumb color, track color */
+  }
+} 
+/* Custom styles for react-phone-number-input to match Tailwind form inputs */
+.custom-phone-input {
+  /* This is the root wrapper. It gets the border and focus styles. */
+  width: 100%;
+  border-radius: 0.5rem; /* 8px */
+  display: flex;
+  align-items: center;
+  height: 50px; /* Matches py-3 inputs (12px*2 padding + 24px line-height + 2px border) */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.custom-phone-input.border-red-500 {
+  border-color: #ef4444; /* red-500 */
+  border-width: 1px;
+}
+
+.custom-phone-input:focus-within {
+  /* Apply focus styles to the wrapper when any child is focused */
+  --tw-ring-color: #f97316; /* orange-500 */
+  box-shadow: 0 0 0 2px var(--tw-ring-color);
+  border-color: #f97316; /* orange-500 */
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.custom-phone-input .PhoneInputCountry {
+  /* Style the country select dropdown part */
+  margin-left: 0.75rem; /* 12px */
+  margin-right: 0.5rem; /* 8px */
+}
+
+.custom-phone-input .PhoneInputInput {
+  /* This is the actual <input> field */
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  height: 100%;
+  padding-top: 0.75rem;    /* 12px, same as py-3 */
+  padding-bottom: 0.75rem; /* 12px, same as py-3 */
+  padding-left: 0.5rem;    /* 8px */
+}
+
+.custom-phone-input .PhoneInputInput:focus {
+  /* Remove the default outline on the inner input when focused */
+  outline: none;
+}
+.PhoneInputInternationalIconPhone {
+  /* This class targets the generic phone icon next to the flag. Hiding it leaves only the flag. */
+  display: none !important;
+}
+.whatsapp-button:hover {
+  /* Custom hover color for WhatsApp button */
+  background-color: #e6fffa; /* A light green, similar to Tailwind's green-50 */
+}
+
+.whatsapp-button:hover {
+  /* Custom hover color for WhatsApp button */
+  background-color: #e6fffa; /* A light green, similar to Tailwind's green-50 */
+}
+
+.whatsapp-button:hover {
+  /* Custom hover color for WhatsApp button */
+  background-color: #e6fffa; /* A light green, similar to Tailwind's green-50 */
+}
