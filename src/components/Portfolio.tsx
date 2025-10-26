@@ -17,13 +17,13 @@ const portfolioItems = [
   {
     id: 3,
     image:
-      'Public/assets/MIICCROTEN_Rf_module.png',
+      'MIICCROTEN_Rf_module.png',
     title: 'High-Frequency RF Module',
   },
   {
     id: 4,
     image:
-      'Public/assets/MICCROTEN_bio.png',
+      'MICCROTEN_bio.png',
     title: 'Medical Device PCB',
   },
   {
