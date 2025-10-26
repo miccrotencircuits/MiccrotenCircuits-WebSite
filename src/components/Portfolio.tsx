@@ -5,25 +5,25 @@ const portfolioItems = [
   {
     id: 1,
     image:
-      'https://images.pexels.com/photos/2582928/pexels-photo-2582928.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://iotbusinessnews.com/WordPress/wp-content/uploads/2022/06/electronic-circuit-board.jpg?auto=compress&cs=tinysrgb&w=800',
     title: 'Multi-Layer IoT Board',
   },
   {
     id: 2,
     image:
-      'https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://www.bitsight.com/sites/default/files/styles/16_9_xlarge/public/2023/10/23/Industrial%20Control%20Systems%20are%20Exposed-Breaking%20Down%20the%20Risks.jpg?itok=Dp57dl-W?auto=compress&cs=tinysrgb&w=800',
     title: 'Industrial Control System',
   },
   {
     id: 3,
     image:
-      'https://images.pexels.com/photos/325111/pexels-photo-325111.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'Public/assets/MIICCROTEN_Rf_module.png',
     title: 'High-Frequency RF Module',
   },
   {
     id: 4,
     image:
-      'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'Public/assets/MICCROTEN_bio.png',
     title: 'Medical Device PCB',
   },
   {
